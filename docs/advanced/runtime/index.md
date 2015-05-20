@@ -26,7 +26,7 @@ The runtime offers the following services:
     -   [First-class SIMD datatypes (Mono.Simd)](http://go-mono.com/docs/index.aspx?link=N%3aMono.Simd)
 -   Exception Handling
     -   Software-triggered exceptions
-    -   Hardware-triggered exceptions like Floating point exceotions, null reference exceptions
+    -   Hardware-triggered exceptions like Floating point exceptions, null reference exceptions
 -   Operating system interface
     -   File system IO
     -   Networking IO
@@ -87,14 +87,14 @@ Support for SPARC64 works in older versions of Mono, but not in the recent versi
 
 ### Embedded systems
 
-To make mono more suitable for some architectures used as embedded systems have a look at the [Small footprint](/docs/compiling-mono/small-footprint/) page.
+To make mono more suitable for some architectures used as embedded systems, have a look at the [Small footprint](/docs/compiling-mono/small-footprint/) page.
 
 Compilation Engine
 ------------------
 
 Paolo Molaro did a presentation on the current JIT engine and the new JIT engine. You can find his slides [here](http://primates.ximian.com/~lupus/slides/jit).
 
-We have re-written our JIT compiler. We wanted to support a number of features that were missing: Ahead of Time compilation, simplify porting and have a solid foundation for compiler optimizations.
+We have re-written our JIT compiler. We wanted to support a number of features that were missing: Ahead of Time compilation, simplified porting and a solid foundation for compiler optimizations.
 
 ### Ahead-of-time compilation
 
